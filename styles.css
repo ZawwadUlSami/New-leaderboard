@@ -1,0 +1,124 @@
+/* font */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body {
+    background-color: #F3F1FF;
+
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.container {
+    margin-right: 285px;
+    margin-left: 285px;
+    margin-top: 36px;
+    background-color:white;
+    border-radius: 5px;
+}
+
+.title-colour{
+    color: #562EFF;
+    height: 36px;
+    margin-bottom: 45px;
+    margin-left: 20px;
+    margin-top:px;
+}
+.top-players-block {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+}
+
+.player {
+    display: flex;
+}
+.player-image {
+    width: 56px;
+    height: 56px;
+    margin-right: 16px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.blog {
+    display: flex;
+}
+.top-blogs-block {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.blog-image {
+    width: 177px;
+    height: 117px;
+
+}
+
+.inner-blog-div1 {
+    margin-bottom: 20px;
+    margin-right: 40px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+span{
+    color: #9F9F9F;
+    width: 138px;
+    height: 24px;
+}
+
+.blog-author {
+    color: #562EFF;
+    width: 160px;
+    height: 24px;
+}
+
+.course-image {
+    width: 224.38px;
+    height: 105.51px;
+}
+.course-author {
+    color: #ED6B4F;
+    Height :17.36px;
+    margin-top: -20px;
+}
+.top-course-block {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.course {
+    height: 270px;
+    width: 253px;
+    border-radius: red 10px;
+}
+
+.inner-course-div2{
+
+    margin-left: 20px ;
+}
+.cmain {
+    display: flex;
+    justify-content: space-between;
+}
+
+.c2 {
+    background-color: #FFE4E8;
+    border-radius: 10px;
+   
+}
+.c1 {
+    margin-right: 15px;
+}
+
+.fa-star {
+    font-size: 12px;
+}
+
+.fa-star.filled {
+    color: #FFC014;
+}
+
+.fa-star.empty {
+    color: #AEAEAE;
+}
